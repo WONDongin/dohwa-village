@@ -119,6 +119,6 @@
 
 | 구분 | 도입·배포 계획 | 역할 |
 | :---: | :---: | --- |
-| [프론트엔드](frontend/) | React + Vite / Vercel | 마을·콘텐츠 화면, 게시글·공감·통계, 동전·불운 분리수거 연출 |
-| [백엔드](backend/) | Java 21 + Spring Boot / Render | 비회원 식별·권한 확인, 게시판·주간 집계, 돌봄 보상·동전 중복 방지 |
-| DB | PostgreSQL / Neon | 게시글·비회원 식별 정보·공감·신고·주간 베스트, 회원 돌 상태와 보상·동전 결과 저장 |
+| [프론트](frontend/) | React + Vite / Vercel | 마을·게시판 화면, 공감·통계, 동전·분리수거 연출 |
+| [백엔드](backend/) | Java 21·Spring Boot / Render | 비회원 식별·권한, 게시판·주간 집계, 보상·동전 중복 방지 |
+| DB | PostgreSQL / Neon | 글·비회원·공감·신고·주간 베스트, 돌 상태·보상·동전 결과 |
