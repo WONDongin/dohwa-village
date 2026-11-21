@@ -13,13 +13,42 @@
 
 ### 📌 서비스 구성
 
-| 콘텐츠 | 예정 경로 | 핵심 기능 |
-| :---: | --- | --- |
-| 메인 마을 | `/` | 2D 도트 마을 탐색·콘텐츠 입장 |
-| **집밥PICK** | 외부 서비스 | 메뉴 추천·레시피 탐색 |
-| **기분 우체국** | `/post-office` | 기억 게시판·공감, 주간 베스트·통계, 불운 분리수거 |
-| **애완 돌멩이 키우기** | `/stone` | 돌봄·꾸미기, 성장·상태 저장 |
-| **오늘의 소원 동전** | `/wish-coin` | 하루 1회 동전 던지기·결과 메시지 |
+<table>
+  <thead>
+    <tr>
+      <th width="155" align="center">콘텐츠</th>
+      <th width="151">예정 경로</th>
+      <th width="493">핵심 기능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">메인 마을</td>
+      <td><code>/</code></td>
+      <td>2D 도트 마을 탐색·콘텐츠 입장</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>집밥PICK</strong></td>
+      <td>외부 서비스</td>
+      <td>메뉴 추천·레시피 탐색</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>기분 우체국</strong></td>
+      <td><code>/post-office</code></td>
+      <td>기억 게시판·공감, 주간 베스트·통계, 불운 분리수거</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>애완 돌멩이 키우기</strong></td>
+      <td><code>/stone</code></td>
+      <td>돌봄·꾸미기, 성장·상태 저장</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>오늘의 소원 동전</strong></td>
+      <td><code>/wish-coin</code></td>
+      <td>하루 1회 동전 던지기·결과 메시지</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -37,11 +66,28 @@
 
 #### 게시판과 불운 분리수거 : 이번 주 공개 글만 기본 목록에 표시합니다.
 
-| 기능 | 이용 방식 |
-:---:|:---
-| 행복한 기억 | 행복한 순간 공유·좋아요, 작성일 표시, 최신순·인기순 |
-| 속상한 기억 | 속상한 일 공유·공감(댓글 없음), 작성일 표시, 최신순·공감순 |
-| 불운 분리수거 | 글자 수 표시, 종이 구기기·위로 문구. 입력은 서버 전송·저장 없이 폐기(복구 불가) |
+<table>
+  <thead>
+    <tr>
+      <th width="145" align="center">기능</th>
+      <th width="654">이용 방식</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">행복한 기억</td>
+      <td>행복한 순간 공유·좋아요, 작성일 표시, 최신순·인기순</td>
+    </tr>
+    <tr>
+      <td align="center">속상한 기억</td>
+      <td>속상한 일 공유·공감(댓글 없음), 작성일 표시, 최신순·공감순</td>
+    </tr>
+    <tr>
+      <td align="center">불운 분리수거</td>
+      <td>글자 수 표시, 종이 구기기·위로 문구. 입력은 서버 전송·저장 없이 폐기(복구 불가)</td>
+    </tr>
+  </tbody>
+</table>
 
 > 1) 비회원 글쓰기와 작성자 확인
 >
@@ -68,13 +114,36 @@
 
 > 도화마을에서 돌을 돌보고 꾸미며 쉬어가는 힐링 게임
 
-| 기능 | 기획 내용 |
-| :---: | --- |
-| 돌 생성 | 이름·기본 외형 선택, 회원당 돌 1개 |
-| 돌봄 | 쓰다듬기(표정·말풍선·하트), 씻기(드래그 거품), 물주기(물방울·반응) |
-| 성장·꾸미기 | 돌봄 경험치로 성장, 모자·안경·받침대·배경 해금 |
-| 게스트 저장 | 가입 없이 브라우저에 저장, **24시간 이후에도 유지**(브라우저 데이터 삭제 시 복구 불가) |
-| 회원 저장·이전 | 다른 기기에서 이어 키우기, 가입 시 이름·기본 외형·꾸미기 이전(경험치 제외·기존 돌 유지) |
+<table>
+  <thead>
+    <tr>
+      <th width="145" align="center">기능</th>
+      <th width="654">기획 내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">돌 생성</td>
+      <td>이름·기본 외형 선택, 회원당 돌 1개</td>
+    </tr>
+    <tr>
+      <td align="center">돌봄</td>
+      <td>쓰다듬기(표정·말풍선·하트), 씻기(드래그 거품), 물주기(물방울·반응)</td>
+    </tr>
+    <tr>
+      <td align="center">성장·꾸미기</td>
+      <td>돌봄 경험치로 성장, 모자·안경·받침대·배경 해금</td>
+    </tr>
+    <tr>
+      <td align="center">게스트 저장</td>
+      <td>가입 없이 브라우저에 저장, <strong>24시간 이후에도 유지</strong>(브라우저 데이터 삭제 시 복구 불가)</td>
+    </tr>
+    <tr>
+      <td align="center">회원 저장·이전</td>
+      <td>다른 기기에서 이어 키우기, 가입 시 이름·기본 외형·꾸미기 이전(경험치 제외·기존 돌 유지)</td>
+    </tr>
+  </tbody>
+</table>
 
 > 1) 일일 보상 중복 방지
 > 돌봄은 반복할 수 있고 경험치는 서버의 한국 날짜 기준 **행동별 하루 한 번** 지급합니다. <br> 동시 클릭·여러 탭·재요청은 트랜잭션, `UNIQUE` 제약, 동시성 제어와 요청 식별 키로 처리할 계획입니다.
@@ -93,12 +162,32 @@
 - **한국 시간 자정** 기준으로 식별자별 하루 1회 참여하며, 닉네임 변경은 횟수에 영향을 주지 않습니다. <br> 처리·연출 중에는 중복 클릭을 막고, 참여 후 버튼을 비활성화해 `오늘의 동전을 던졌어요`를 표시합니다.
 - 당일 재접속·새로고침·연출 건너뛰기 후에도 결과와 메시지를 유지합니다. <br> 재요청 시 저장된 결과를 반환하며, 기록이 없으면 다시 시도할 수 있습니다.
 
-| 결과 | 메시지 예시 |
-| :---: | :---: |
-| 앞면 | 오늘은 작은 행운이 네 편이에요. |
-| 앞면 | 미뤄둔 일을 슬쩍 시작해봐요. |
-| 뒷면 | 소원이 오려면 조금 더 걸리나 봐요. |
-| 뒷면 | 쉬어가는 시간에 행운이 숨어 있어요. |
+<table>
+  <thead>
+    <tr>
+      <th width="145" align="center">결과</th>
+      <th width="654" align="center">메시지 예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">앞면</td>
+      <td align="center">오늘은 작은 행운이 네 편이에요.</td>
+    </tr>
+    <tr>
+      <td align="center">앞면</td>
+      <td align="center">미뤄둔 일을 슬쩍 시작해봐요.</td>
+    </tr>
+    <tr>
+      <td align="center">뒷면</td>
+      <td align="center">소원이 오려면 조금 더 걸리나 봐요.</td>
+    </tr>
+    <tr>
+      <td align="center">뒷면</td>
+      <td align="center">쉬어가는 시간에 행운이 숨어 있어요.</td>
+    </tr>
+  </tbody>
+</table>
 
 <Br>
 
@@ -117,8 +206,29 @@
 프론트엔드·백엔드·PostgreSQL DB를 각각 1개 두고 기능별로 관리합니다. <Br> 
 현재 `frontend/`와 `backend/`는 `.gitkeep`으로 유지합니다.
 
-| 구분 | 도입·배포 계획 | 역할 |
-| :---: | :---: | --- |
-| [프론트](frontend/) | React + Vite / Vercel | 마을·게시판 화면, 공감·통계, 동전·분리수거 연출 |
-| [백엔드](backend/) | Java 21·Spring Boot / Render | 비회원 식별·권한, 게시판·주간 집계, 보상·동전 중복 방지 |
-| DB | PostgreSQL / Neon | 글·비회원·공감·신고·주간 베스트, 돌 상태·보상·동전 결과 |
+<table>
+  <thead>
+    <tr>
+      <th width="90" align="center">구분</th>
+      <th width="260" align="center">도입·배포 계획</th>
+      <th width="449">역할</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><a href="frontend/">프론트</a></td>
+      <td align="center">React + Vite / Vercel</td>
+      <td>마을·게시판 화면, 공감·통계, 동전·분리수거 연출</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="backend/">백엔드</a></td>
+      <td align="center">Java 21·Spring Boot / Render</td>
+      <td>비회원 식별·권한, 게시판·주간 집계, 보상·동전 중복 방지</td>
+    </tr>
+    <tr>
+      <td align="center">DB</td>
+      <td align="center">PostgreSQL / Neon</td>
+      <td>글·비회원·공감·신고·주간 베스트, 돌 상태·보상·동전 결과</td>
+    </tr>
+  </tbody>
+</table>
