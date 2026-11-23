@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #fff7f3;
+  color: #392520;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 9vw, 5rem);
+}
