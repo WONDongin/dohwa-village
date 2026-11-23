@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/post-office", "destination": "/index.html" },
+    { "source": "/stone", "destination": "/index.html" }
+  ]
+}
